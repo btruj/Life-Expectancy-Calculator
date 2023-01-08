@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #FBF1D3;
+    display: flex;
+    justify-content: center;
+  }
+
+  .iphone {
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 30px;
+
+  }
+
+  .screen {
+    width: 335px;
+    height: 722px;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 20px;
+    margin: 40px auto 0;
+    overflow: hidden;
+  }
+
+  input[type='number'] {
+    width: 60px;
+    text-align: center;
+  }
+
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  p {
+    font-size: 18px;
+  }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Life Expectancy Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="iphone">
+      <div class="screen">
+        <h1>Life Expectancy Calculator</h1>
+        <br /><small>(<b>IF</b> we live until <u>90</u> years old)</small>
+        <form onsubmit="lifeInWeeks(event)">
+          <br />
+          <p>Enter your age:</p>
+          <br />
+          <input type="number" id="age-input" />
+          <button type="submit">Calculate</button>
+          <p id="result"></p>
+        </form>
+        <br />
+        <h4>
+          I created this App because I realized just how little time we actually
+          have.
+        </h4>
+        <br>
+        <h5>
+          <u>How Calculation Works: </u><br><br>yearsRemaining = 90 - Your
+          Age
+          <br>
+          days = yearsRemaining * 365 (days in a year)<br>
+          weeks = yearsRemaining * 52 (weeks in a year)<br>
+          months = yearsRemaining * 12 (months in a year)
+        </h5>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
